@@ -1,0 +1,20 @@
+pkgbase = mkcal-git
+	pkgdesc = Telepathy <> QtContacts bridge for contacts
+	pkgver = 0.5.44.r0.ga9b79cb
+	pkgrel = 1
+	url = https://github.com/sailfishos/mkcal
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = cmake
+	makedepends = extra-cmake-modules
+	depends = kcalendarcore
+	depends = qt5-timed-git
+	depends = qmf-qt5
+	provides = mkcal
+	conflicts = mkcal
+	source = mkcal-git::git+https://github.com/sailfishos/mkcal
+	sha256sums = SKIP
+
+pkgname = mkcal-git

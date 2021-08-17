@@ -1,0 +1,21 @@
+pkgbase = qt5-contacts-sqlite-extensions-git
+	pkgdesc = SQLite-based plugin for QtPIM Contacts
+	pkgver = 0.3.14.r0.gcff793e
+	pkgrel = 1
+	url = https://github.com/sailfishos/qtcontacts-sqlite
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	depends = qt5-pim-git
+	depends = mlite
+	provides = qt5-contacts-sqlite-extensions
+	conflicts = qt5-contacts-sqlite-extensions
+	source = qt5-contacts-sqlite-extensions-git::git+https://github.com/sailfishos/qtcontacts-sqlite
+	source = 0001-fix-build-with-newer-qt.patch
+	source = 0002-remove-obsolete-QContact-IgnoreAccessConstraints.patch
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = qt5-contacts-sqlite-extensions-git

@@ -1,0 +1,18 @@
+pkgbase = nemo-qml-plugin-connectivity-git
+	pkgdesc = Connectivity plugin for Nemo Mobile
+	pkgver = 0.2.7.r0.g891d345
+	pkgrel = 1
+	url = https://github.com/sailfishos/nemo-qml-plugin-connectivity
+	arch = x86_64
+	arch = aarch64
+	license = BSD
+	makedepends = git
+	depends = qt5-systems
+	depends = qt5-connman-git
+	depends = qt5-ofono-nemo-extensions-git
+	provides = nemo-qml-plugin-connectivity
+	conflicts = nemo-qml-plugin-connectivity
+	source = nemo-qml-plugin-connectivity::git+https://github.com/sailfishos/nemo-qml-plugin-connectivity
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-connectivity-git

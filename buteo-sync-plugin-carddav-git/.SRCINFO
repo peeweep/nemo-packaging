@@ -1,0 +1,23 @@
+pkgbase = buteo-sync-plugin-carddav-git
+	pkgdesc = Syncs contact data from CardDAV services
+	pkgver = 0.1.6.r0.gb67977c
+	pkgrel = 1
+	url = https://github.com/sailfishos/buteo-sync-plugin-carddav
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = qt5-tools
+	depends = libphonenumber
+	depends = qt5-mlocale-git
+	depends = libsailfishkeyprovider-git
+	depends = buteo-syncfw-git
+	depends = qt5-contacts-sqlite-extensions-git
+	provides = buteo-sync-plugin-carddav
+	conflicts = buteo-sync-plugin-carddav
+	source = buteo-sync-plugin-carddav-git::git+https://github.com/sailfishos/buteo-sync-plugin-carddav
+	source = 0001-remove-obsolete-QContact-IgnoreAccessConstraints.patch
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = buteo-sync-plugin-carddav-git

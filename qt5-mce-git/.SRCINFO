@@ -1,0 +1,20 @@
+pkgbase = qt5-mce-git
+	pkgdesc = A library of Qt bindings for mce
+	pkgver = 1.4.2.r0.g431168d
+	pkgrel = 1
+	url = https://github.com/sailfishos/libmce-qt
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = mce-git
+	makedepends = mce-headers-git
+	depends = qt5-declarative
+	provides = qt5-mce-git-git
+	provides = qt-mce-git-git
+	conflicts = qt5-mce-git-git
+	conflicts = qt-mce-git-git
+	source = qt-mce-git::git+https://github.com/sailfishos/libmce-qt
+	sha256sums = SKIP
+
+pkgname = qt5-mce-git

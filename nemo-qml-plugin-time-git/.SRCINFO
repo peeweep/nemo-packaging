@@ -1,0 +1,18 @@
+pkgbase = nemo-qml-plugin-time-git
+	pkgdesc = Wall clock plugin for Nemo Mobile
+	pkgver = 0.1.3.r0.ge9ac208
+	pkgrel = 1
+	url = https://github.com/sailfishos/nemo-qml-plugin-time
+	arch = x86_64
+	arch = aarch64
+	license = BSD
+	makedepends = git
+	makedepends = mce-headers-git
+	depends = qt5-timed-git
+	depends = nemo-qml-plugin-dbus
+	provides = nemo-qml-plugin-time
+	conflicts = nemo-qml-plugin-time
+	source = nemo-qml-plugin-time::git+https://github.com/sailfishos/nemo-qml-plugin-time
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-time-git

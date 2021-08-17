@@ -1,0 +1,31 @@
+pkgbase = dsme-git
+	pkgdesc = Device State Management Entity
+	pkgver = 0.83.1.r0.gd9c5940
+	pkgrel = 1
+	url = https://github.com/sailfishos/dsme
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = git
+	makedepends = autoconf
+	makedepends = automake
+	makedepends = mce-headers
+	depends = libngf-git
+	depends = libiphb-git
+	depends = mce-git
+	depends = cryptsetup
+	depends = libsystemd
+	depends = libdsme>=0.66.6
+	depends = glib2
+	depends = systemd
+	depends = systemd-libs
+	provides = dsme
+	conflicts = dsme
+	source = dsme::git+https://github.com/sailfishos/dsme
+	source = fix-dsme_server_path.patch
+	source = dsme.service
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = dsme-git

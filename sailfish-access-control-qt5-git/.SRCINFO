@@ -1,0 +1,17 @@
+pkgbase = sailfish-access-control-qt5-git
+	pkgdesc = Sailfish Access Control QML plugin
+	pkgver = 0.0.5.r0.gf858fed
+	pkgrel = 1
+	url = https://github.com/sailfishos/sailfish-access-control
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = git
+	depends = qt5-declarative
+	depends = sailfish-access-control
+	provides = sailfish-access-control-qt5
+	conflicts = sailfish-access-control-qt5
+	source = sailfish-access-control-qt5::git+https://github.com/sailfishos/sailfish-access-control
+	md5sums = SKIP
+
+pkgname = sailfish-access-control-qt5-git

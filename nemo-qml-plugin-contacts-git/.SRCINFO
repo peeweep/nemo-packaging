@@ -1,0 +1,24 @@
+pkgbase = nemo-qml-plugin-contacts-git
+	pkgdesc = Nemo QML contacts plugin
+	pkgver = 0.3.20.r0.gdfdedb9
+	pkgrel = 1
+	url = https://github.com/sailfishos/nemo-qml-plugin-contacts
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = qt5-tools
+	depends = libphonenumber
+	depends = qt5-mlocale-git
+	depends = mce-git
+	depends = mce-headers-git
+	depends = qt5-contacts-sqlite-extensions-git
+	depends = buteo-sync-plugin-carddav
+	provides = nemo-qml-plugin-contacts
+	conflicts = nemo-qml-plugin-contacts
+	source = nemo-qml-plugin-contacts-git::git+https://github.com/sailfishos/nemo-qml-plugin-contacts
+	source = 0001-remove-collection.extendedMetaData-as-it-doens-t-exi.patch
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-contacts-git

@@ -1,0 +1,16 @@
+pkgbase = nemo-qml-plugin-notifications-git
+	pkgdesc = Nemo QML notifications plugin
+	pkgver = 1.2.14.r0.g2fd616c
+	pkgrel = 1
+	url = https://github.com/sailfishos/nemo-qml-plugin-notifications
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	depends = qt5-declarative
+	provides = nemo-qml-plugin-notifications
+	conflicts = nemo-qml-plugin-notifications
+	source = nemo-qml-plugin-notifications-git::git+https://github.com/sailfishos/nemo-qml-plugin-notifications
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-notifications-git

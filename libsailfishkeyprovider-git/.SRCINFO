@@ -1,0 +1,17 @@
+pkgbase = libsailfishkeyprovider-git
+	pkgdesc = Library providing access to decoded OAuth2 keys
+	pkgver = 1.0.7.r0.gcef4186
+	pkgrel = 1
+	url = https://github.com/sailfishos/libsailfishkeyprovider
+	arch = x86_64
+	arch = aarch64
+	license = LGPLv2
+	makedepends = git
+	makedepends = qt5-base
+	depends = gcc-libs
+	provides = libsailfishkeyprovider
+	conflicts = libsailfishkeyprovider
+	source = libsailfishkeyprovider::git+https://github.com/sailfishos/libsailfishkeyprovider
+	md5sums = SKIP
+
+pkgname = libsailfishkeyprovider-git

@@ -1,0 +1,17 @@
+pkgbase = nemo-qml-plugin-signon-git
+	pkgdesc = signon plugin for Nemo Mobile
+	pkgver = 0.0.9.r0.g0db5900
+	pkgrel = 1
+	url = https://github.com/sailfishos/nemo-qml-plugin-signon
+	arch = x86_64
+	arch = aarch64
+	license = BSD
+	makedepends = git
+	depends = signond
+	depends = qt5-declarative
+	provides = nemo-qml-plugin-signon
+	conflicts = nemo-qml-plugin-signon
+	source = nemo-qml-plugin-signon-git::git+https://github.com/sailfishos/nemo-qml-plugin-signon
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-signon-git

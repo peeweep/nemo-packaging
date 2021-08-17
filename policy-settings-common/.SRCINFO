@@ -1,0 +1,19 @@
+pkgbase = policy-settings-common
+	pkgdesc = Common policy settings
+	pkgver = common.0.11.2.r0.g7a0e6fa
+	pkgrel = 1
+	url = https://github.com/sailfishos/policy-settings-common
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.1-only
+	makedepends = git
+	makedepends = automake
+	makedepends = autoconf
+	depends = glib2
+	depends = libprolog
+	depends = swi-prolog
+	depends = libdres-ohm
+	source = policy-settings-common::git+https://github.com/sailfishos/policy-settings-common
+	sha256sums = SKIP
+
+pkgname = policy-settings-common

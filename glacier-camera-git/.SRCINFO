@@ -1,0 +1,19 @@
+pkgbase = glacier-camera-git
+	pkgdesc = Glacier Camera
+	pkgver = 0.1.2.r6.g7447f14
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/glacier-camera#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.0-or-later
+	makedepends = git
+	makedepends = qt5-tools
+	makedepends = cmake
+	depends = qt5-glacier-app-git
+	depends = nemo-qml-plugin-settings-git
+	provides = glacier-camera
+	conflicts = glacier-camera
+	source = glacier-camera-git::git+https://github.com/nemomobile-ux/glacier-camera#branch=master
+	sha256sums = SKIP
+
+pkgname = glacier-camera-git

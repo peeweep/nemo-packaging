@@ -1,0 +1,19 @@
+pkgbase = libdres-ohm
+	pkgdesc = Dependency resolver for OHM
+	pkgver = 1.1.17.r0.ga89f56c
+	pkgrel = 1
+	url = https://github.com/sailfishos/libdres-ohm
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.1-only
+	makedepends = git
+	makedepends = automake
+	makedepends = autoconf
+	depends = glib2
+	depends = ohm
+	depends = libtrace-ohm
+	depends = libprolog
+	source = libdres-ohm::git+https://github.com/sailfishos/libdres-ohm
+	sha256sums = SKIP
+
+pkgname = libdres-ohm

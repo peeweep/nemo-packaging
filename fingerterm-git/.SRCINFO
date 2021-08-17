@@ -1,0 +1,18 @@
+pkgbase = fingerterm-git
+	pkgdesc = fingerterm is a terminal emulator designed for touch-based interaction, specifically for (but not limited to) use on the Nokia N9 and Jolla's Jolla device.
+	pkgver = 1.4.3.r0.g7e52271
+	pkgrel = 1
+	url = https://github.com/sailfishos/fingerterm
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	license = LGPL-2.1-only
+	makedepends = git
+	makedepends = qt5-tools
+	depends = qt5-declarative
+	provides = fingerterm
+	conflicts = fingerterm
+	source = fingerterm-git::git+https://github.com/sailfishos/fingerterm
+	sha256sums = SKIP
+
+pkgname = fingerterm-git

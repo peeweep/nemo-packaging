@@ -1,0 +1,13 @@
+pkgbase = android-headers
+	pkgdesc = Android headers extracted through libhybris
+	pkgver = 9.0.0
+	pkgrel = 1
+	url = https://github.com/gemian/android-headers
+	arch = any
+	license = Apache
+	makedepends = git
+	makedepends = libffi
+	source = android-headers::git+https://github.com/gemian/android-headers.git#branch=android-9
+	md5sums = SKIP
+
+pkgname = android-headers

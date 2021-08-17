@@ -1,0 +1,18 @@
+pkgbase = libhybris-git
+	pkgver = 1504.c3dfdb1
+	pkgrel = 1
+	url = https://github.com/libhybris/libhybris
+	arch = x86_64
+	arch = aarch64
+	license = Apache
+	makedepends = git
+	makedepends = mesa
+	makedepends = android-headers
+	depends = wayland
+	provides = libhybris
+	options = debug
+	options = !strip
+	source = libhybris::git+https://github.com/libhybris/libhybris
+	md5sums = SKIP
+
+pkgname = libhybris-git

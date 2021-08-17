@@ -1,0 +1,26 @@
+pkgbase = glacier-settings-git
+	pkgdesc = QML based settings application for nemomobile
+	pkgver = 0.2.r32.g239b478
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/glacier-settings#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = qt5-tools
+	makedepends = cmake
+	depends = qt5-glacier-app-git
+	depends = qt5-location
+	depends = nemo-qml-plugin-devicelock-git
+	depends = nemo-qml-plugin-settings-git
+	depends = qt5-connman-git
+	depends = qt5-mce-git
+	depends = nemo-qml-plugin-connectivity-git
+	depends = nemo-qml-plugin-models>=0.2.1
+	depends = nemo-qml-plugin-systemsettings
+	provides = glacier-settings
+	conflicts = glacier-settings
+	source = glacier-settings-git::git+https://github.com/nemomobile-ux/glacier-settings#branch=master
+	sha256sums = SKIP
+
+pkgname = glacier-settings-git

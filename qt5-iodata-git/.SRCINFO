@@ -1,0 +1,18 @@
+pkgbase = qt5-iodata-git
+	pkgdesc = Mer library for input/output data
+	pkgver = 0.19.11+git1.r0.g9c9c84b
+	pkgrel = 1
+	url = https://github.com/sailfishos/libiodata
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.1-or-later
+	makedepends = git
+	makedepends = bison
+	makedepends = flex
+	depends = qt5-base
+	provides = qt5-iodata
+	conflicts = qt5-iodata
+	source = qt5-iodata-git::git+https://github.com/sailfishos/libiodata
+	md5sums = SKIP
+
+pkgname = qt5-iodata-git

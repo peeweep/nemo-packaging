@@ -1,0 +1,16 @@
+pkgbase = qt5-profile-git
+	pkgdesc = Qt5 library for profiles
+	pkgver = 0.35.5.r0.gd10d69c
+	pkgrel = 1
+	url = https://github.com/sailfishos/libprofile-qt
+	arch = x86_64
+	arch = aarch64
+	license = BSD
+	makedepends = git
+	makedepends = sailfish-access-control-git
+	depends = qt5-base
+	provides = qt5-profile
+	source = qt5-profile-git::git+https://github.com/sailfishos/libprofile-qt.git
+	sha256sums = SKIP
+
+pkgname = qt5-profile-git

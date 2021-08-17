@@ -1,0 +1,17 @@
+pkgbase = qt5-glacier-app-git
+	pkgdesc = Glacier Application library
+	pkgver = 0.7.r3.geab1b3d
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/libglacierapp#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.0-or-later
+	makedepends = git
+	makedepends = cmake
+	depends = qt5-quickcontrols-nemo-git
+	provides = qt5-glacier-app
+	conflicts = qt5-glacier-app
+	source = qt5-glacier-app-git::git+https://github.com/nemomobile-ux/libglacierapp#branch=master
+	md5sums = SKIP
+
+pkgname = qt5-glacier-app-git

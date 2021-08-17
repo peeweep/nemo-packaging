@@ -1,0 +1,15 @@
+pkgbase = google-opensans-fonts-git
+	pkgdesc = Open Sans is a humanist sans serif typeface designed by Steve Matteson, Type Director of Ascender Corp
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://github.com/nemomobile-packages/google-opensans-fonts#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = Apache License 2.0
+	makedepends = git
+	provides = google-opensans-fonts
+	conflicts = google-opensans-fonts
+	source = google-opensans-fonts-git::git+https://github.com/nemomobile-packages/google-opensans-fonts#branch=master
+	md5sums = SKIP
+
+pkgname = google-opensans-fonts-git

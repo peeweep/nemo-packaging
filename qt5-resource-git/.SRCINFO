@@ -1,0 +1,17 @@
+pkgbase = qt5-resource-git
+	pkgdesc = Resource Policy Qt API
+	pkgver = 1.30.6.r0.g22c940c
+	pkgrel = 1
+	url = https://github.com/sailfishos/libresourceqt
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.1-or-later
+	makedepends = git
+	depends = qt5-base
+	depends = meego-resource-git
+	provides = qt5-resource
+	conflicts = qt5-resource
+	source = qt5-resource-git::git+https://github.com/sailfishos/libresourceqt
+	md5sums = SKIP
+
+pkgname = qt5-resource-git

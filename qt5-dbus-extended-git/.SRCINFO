@@ -1,0 +1,16 @@
+pkgbase = qt5-dbus-extended-git
+	pkgdesc = Extended DBus for Qt
+	pkgver = 0.0.3.r0.g3497143
+	pkgrel = 1
+	url = https://github.com/nemomobile/qtdbusextended#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.1-or-later
+	makedepends = git
+	depends = qt5-base
+	provides = qt5-dbus-extended
+	conflicts = qt5-dbus-extended
+	source = qt5-dbus-extended-git::git+https://github.com/nemomobile/qtdbusextended#branch=master
+	md5sums = SKIP
+
+pkgname = qt5-dbus-extended-git

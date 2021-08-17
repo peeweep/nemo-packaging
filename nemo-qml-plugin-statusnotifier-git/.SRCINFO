@@ -1,0 +1,16 @@
+pkgbase = nemo-qml-plugin-statusnotifier-git
+	pkgdesc = Nemo QML statusnotifier plugin
+	pkgver = 1.0.r1.g859139a
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/nemo-qml-plugin-statusnotifier#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.0-or-later
+	makedepends = git
+	depends = qt5-declarative
+	provides = nemo-qml-plugin-statusnotifier
+	conflicts = nemo-qml-plugin-statusnotifier
+	source = nemo-qml-plugin-statusnotifier-git::git+https://github.com/nemomobile-ux/nemo-qml-plugin-statusnotifier#branch=master
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-statusnotifier-git

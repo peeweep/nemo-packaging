@@ -1,0 +1,17 @@
+pkgbase = qt5-mpris-git
+	pkgdesc = Qt and QML MPRIS interface and adaptor
+	pkgver = 1.0.6.r0.gade1b9a
+	pkgrel = 1
+	url = https://github.com/sailfishos/qtmpris
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.1-or-later
+	makedepends = git
+	depends = qt5-declarative
+	depends = qt5-dbus-extended-git
+	provides = qt5-mpris
+	conflicts = qt5-mpris
+	source = qt5-mpris-git::git+https://github.com/sailfishos/qtmpris
+	md5sums = SKIP
+
+pkgname = qt5-mpris-git

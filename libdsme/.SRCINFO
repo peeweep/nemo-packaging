@@ -1,0 +1,15 @@
+pkgbase = libdsme
+	pkgdesc = DSME dsmesock dynamic library
+	pkgver = 0.66.6
+	pkgrel = 1
+	url = https://github.com/sailfishos/libdsme.git
+	arch = x86_64
+	arch = aarch64
+	license = LGPL
+	makedepends = git
+	makedepends = check
+	depends = glib2
+	source = libdsme::git+https://github.com/sailfishos/libdsme.git
+	sha512sums = SKIP
+
+pkgname = libdsme

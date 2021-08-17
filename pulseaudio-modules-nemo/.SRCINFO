@@ -1,0 +1,22 @@
+pkgbase = pulseaudio-modules-nemo
+	pkgdesc = PulseAudio modules for Nemo
+	pkgver = 14.2.30.r0.gd0dfdc3
+	pkgrel = 2
+	url = https://github.com/sailfishos/pulseaudio-modules-nemo
+	arch = x86_64
+	arch = aarch64
+	license = LGPLv2+
+	makedepends = git
+	makedepends = automake
+	makedepends = autoconf
+	makedepends = pulsecore-headers
+	makedepends = check
+	depends = libpulse
+	depends = alsa-lib
+	depends = pulseaudio
+	source = pulseaudio-modules-nemo::git+https://github.com/sailfishos/pulseaudio-modules-nemo
+	source = 0001-fix_build.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = pulseaudio-modules-nemo

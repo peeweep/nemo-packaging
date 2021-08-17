@@ -1,0 +1,20 @@
+pkgbase = pulseaudio-module-keepalive
+	pkgdesc = PulseAudio keepalive module
+	pkgver = 1.0.1.r0.g3102ee5
+	pkgrel = 2
+	url = https://github.com/sailfishos/pulseaudio-module-keepalive
+	arch = x86_64
+	arch = aarch64
+	license = LGPLv2+
+	makedepends = git
+	makedepends = automake
+	makedepends = autoconf
+	makedepends = pulsecore-headers
+	depends = libpulse
+	depends = pulseaudio
+	source = pulseaudio-module-keepalive::git+https://github.com/sailfishos/pulseaudio-module-keepalive
+	source = 0001-fix_build.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = pulseaudio-module-keepalive

@@ -1,0 +1,17 @@
+pkgbase = nemo-qml-plugin-email-git
+	pkgdesc = Messages plugin for Nemo Mobile
+	pkgver = 0.6.20.r0.gdbb3961
+	pkgrel = 1
+	url = https://github.com/sailfishos/nemo-qml-plugin-email
+	arch = x86_64
+	arch = aarch64
+	license = BSD
+	makedepends = git
+	depends = qt5-base
+	depends = qmf-qt5-git
+	provides = nemo-qml-plugin-email
+	conflicts = nemo-qml-plugin-email
+	source = nemo-qml-plugin-email-git::git+https://github.com/sailfishos/nemo-qml-plugin-email
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-email-git

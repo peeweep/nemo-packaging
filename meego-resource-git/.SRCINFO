@@ -1,0 +1,20 @@
+pkgbase = meego-resource-git
+	pkgdesc = MeeGo resource management low level C API libraries
+	pkgver = 0.24.1.r0.g7d2e812
+	pkgrel = 1
+	url = https://github.com/sailfishos/libresource
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.1-only
+	makedepends = git
+	makedepends = automake
+	makedepends = autoconf
+	makedepends = libtool
+	depends = dbus-glib
+	depends = check
+	provides = meego-resource
+	conflicts = meego-resource
+	source = meego-resource-git::git+https://github.com/sailfishos/libresource
+	md5sums = SKIP
+
+pkgname = meego-resource-git

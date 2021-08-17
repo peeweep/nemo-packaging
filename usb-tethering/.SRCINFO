@@ -1,0 +1,15 @@
+pkgbase = usb-tethering
+	pkgdesc = USB control for usb-moded
+	pkgver = 0.1
+	pkgrel = 1
+	arch = any
+	license = custom
+	depends = usb-moded
+	source = usb-tethering
+	source = usb-tethering.service
+	source = tmpfiles.d.hybris-usb.conf
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = usb-tethering

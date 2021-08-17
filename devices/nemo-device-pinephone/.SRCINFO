@@ -1,0 +1,19 @@
+pkgbase = nemo-device-pinephone
+	pkgdesc = PinePhone specific files for GlacierUX
+	pkgver = 0.4.2
+	pkgrel = 1
+	url = https://github.com/neochapay/nemo-device-dont_be_evil#branch=master
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	depends = glacier-wayland-session
+	depends = usb-moded
+	depends = maliit-nemo-keyboard
+	depends = sensorfw
+	provides = nemo-device-pinephone
+	conflicts = nemo-device-pinephone
+	conflicts = usb-tethering
+	source = nemo-device-pinephone::git+https://github.com/neochapay/nemo-device-dont_be_evil#branch=master
+	sha256sums = SKIP
+
+pkgname = nemo-device-pinephone

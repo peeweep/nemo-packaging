@@ -1,0 +1,16 @@
+pkgbase = sailfish-access-control-git
+	pkgdesc = Sailfish Access Control library
+	pkgver = 0.0.5.r0.gf858fed
+	pkgrel = 1
+	url = https://github.com/sailfishos/sailfish-access-control
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = git
+	depends = glib2
+	provides = sailfish-access-control
+	conflicts = sailfish-access-control
+	source = sailfish-access-control::git+https://github.com/sailfishos/sailfish-access-control
+	md5sums = SKIP
+
+pkgname = sailfish-access-control-git

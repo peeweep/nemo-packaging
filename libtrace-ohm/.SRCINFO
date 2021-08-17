@@ -1,0 +1,15 @@
+pkgbase = libtrace-ohm
+	pkgdesc = A simple tracing library with keyword filtering support
+	pkgver = 1.1.8+git4.r0.g02376f9
+	pkgrel = 1
+	url = https://github.com/sailfishos/libtrace-ohm
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.1-only
+	makedepends = git
+	makedepends = automake
+	makedepends = libtool
+	source = libtrace-ohm::git+https://github.com/sailfishos/libtrace-ohm
+	sha256sums = SKIP
+
+pkgname = libtrace-ohm

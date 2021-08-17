@@ -1,0 +1,22 @@
+pkgbase = glacier-messages-git
+	pkgdesc = QML based messages application for nemomobile
+	pkgver = 0.2.2.r8.g3d2a25a
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/glacier-messages#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	depends = qt5-glacier-app-git
+	depends = nemo-qml-plugin-contacts-git
+	depends = nemo-qml-plugin-dbus
+	depends = commhistory-daemon-git
+	depends = libcommhistory-git
+	depends = nemo-qml-plugin-messages-git
+	depends = telepathy-mission-control
+	provides = glacier-messages
+	conflicts = glacier-messages
+	source = glacier-messages-git::git+https://github.com/nemomobile-ux/glacier-messages#branch=master
+	sha256sums = SKIP
+
+pkgname = glacier-messages-git

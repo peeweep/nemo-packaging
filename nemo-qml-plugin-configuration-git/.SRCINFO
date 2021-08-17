@@ -1,0 +1,17 @@
+pkgbase = nemo-qml-plugin-configuration-git
+	pkgdesc = Configuration plugin for Nemo Mobile
+	pkgver = 0.2.3.r0.g917ed97
+	pkgrel = 2
+	url = https://github.com/sailfishos/nemo-qml-plugin-configuration
+	arch = x86_64
+	arch = aarch64
+	license = BSD
+	makedepends = git
+	depends = mlite
+	depends = nemo-qml-plugin-dbus
+	provides = nemo-qml-plugin-configuration
+	conflicts = nemo-qml-plugin-configuration
+	source = nemo-qml-plugin-configuration::git+https://github.com/sailfishos/nemo-qml-plugin-configuration
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-configuration-git

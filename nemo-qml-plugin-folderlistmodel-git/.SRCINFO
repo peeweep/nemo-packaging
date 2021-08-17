@@ -1,0 +1,16 @@
+pkgbase = nemo-qml-plugin-folderlistmodel-git
+	pkgdesc = Folder list model plugin for Nemo Mobile
+	pkgver = 0.0.12.r2.gf48df29
+	pkgrel = 1
+	url = https://github.com/nemomobile/nemo-qml-plugin-folderlistmodel#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	depends = qt5-declarative
+	provides = nemo-qml-plugin-folderlistmodel
+	conflicts = nemo-qml-plugin-folderlistmodel
+	source = nemo-qml-plugin-folderlistmodel-git::git+https://github.com/nemomobile/nemo-qml-plugin-folderlistmodel#branch=master
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-folderlistmodel-git

@@ -1,0 +1,16 @@
+pkgbase = nemo-theme-openmoko-git
+	pkgdesc = Openmoko theme
+	pkgver = r5027.0bde889e
+	pkgrel = 1
+	url = https://github.com/openmoko/openmoko-svn/
+	arch = x86_64
+	arch = aarch64
+	license = CC-BY-SA-3.0
+	makedepends = git
+	provides = nemo-theme-openmoko
+	provides = nemo-theme-default
+	conflicts = nemo-theme-openmoko
+	source = nemo-theme-openmoko-git::git+https://github.com/openmoko/openmoko-svn/
+	md5sums = SKIP
+
+pkgname = nemo-theme-openmoko-git

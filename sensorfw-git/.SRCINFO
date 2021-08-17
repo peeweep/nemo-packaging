@@ -1,0 +1,21 @@
+pkgbase = sensorfw-git
+	pkgdesc = Sensor Framework provides an interface to hardware sensor drivers through logical sensors
+	pkgver = 0.12.3.r0.ge894aad
+	pkgrel = 1
+	url = https://github.com/sailfishos/sensorfw
+	arch = x86_64
+	arch = aarch64
+	license = LGPLv2
+	makedepends = git
+	makedepends = doxygen
+	depends = libngf-git
+	depends = libiphb-git
+	depends = mlite
+	provides = sensorfw
+	conflicts = sensorfw
+	source = sensorfw-git::git+https://github.com/sailfishos/sensorfw
+	source = sensorfwd.service
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = sensorfw-git

@@ -1,0 +1,16 @@
+pkgbase = nemo-theme-glacier-git
+	pkgdesc = Glacier theme based on nemo-theme-default
+	pkgver = 0.2.r2.gd9e2fe1
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/nemo-theme-glacier#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = CC-BY-SA-3.0
+	makedepends = git
+	provides = nemo-theme-glacier
+	provides = nemo-theme-default
+	conflicts = nemo-theme-glacier
+	source = nemo-theme-glacier-git::git+https://github.com/nemomobile-ux/nemo-theme-glacier#branch=master
+	md5sums = SKIP
+
+pkgname = nemo-theme-glacier-git

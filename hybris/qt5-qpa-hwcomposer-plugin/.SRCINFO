@@ -1,0 +1,19 @@
+pkgbase = qt5-qpa-hwcomposer-plugin
+	pkgdesc = Qt QPA plugin for Android hwcomposer
+	pkgver = 5.15
+	pkgrel = 1
+	url = https://github.com/neochapay/qt5-qpa-hwcomposer-plugin
+	arch = aarch64
+	license = GPL3
+	license = LGPL
+	license = custom
+	makedepends = git
+	depends = qt5-base
+	depends = qt5-wayland
+	depends = qt5-sensors
+	depends = android-headers
+	depends = libhybris
+	source = qt5-qpa-hwcomposer-plugin::git+https://github.com/nemomobile-ux/qt5-qpa-hwcomposer-plugin.git
+	md5sums = SKIP
+
+pkgname = qt5-qpa-hwcomposer-plugin

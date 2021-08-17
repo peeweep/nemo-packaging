@@ -1,0 +1,17 @@
+pkgbase = nemo-qml-plugin-models
+	pkgdesc = Nemo QML models plugin
+	pkgver = 0.2.2
+	pkgrel = 1
+	url = https://github.com/sailfishos/nemo-qml-plugin-models.git
+	arch = x86_64
+	arch = aarch64
+	license = BSD
+	makedepends = git
+	depends = nemo-qml-plugin-dbus
+	depends = qt5-mlocale-git
+	provides = nemo-qml-plugin-models
+	conflicts = nemo-qml-plugin-models
+	source = nemo-qml-plugin-models::git+https://github.com/sailfishos/nemo-qml-plugin-models.git
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-models

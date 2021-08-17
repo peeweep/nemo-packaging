@@ -1,0 +1,18 @@
+pkgbase = profiled-git
+	pkgdesc = Sailfish Profile daemon, manages user settings
+	pkgver = 1.0.12.r0.g32b02ae
+	pkgrel = 3
+	url = https://github.com/sailfishos/profiled
+	arch = x86_64
+	arch = aarch64
+	license = BSD
+	makedepends = git
+	makedepends = doxygen
+	depends = dbus-glib
+	provides = profiled
+	source = profiled-git::git+https://github.com/sailfishos/profiled
+	source = 0001-use-ogg-instead-of-wav.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = profiled-git

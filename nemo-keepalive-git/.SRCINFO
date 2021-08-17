@@ -1,0 +1,18 @@
+pkgbase = nemo-keepalive-git
+	pkgdesc = CPU and display keepalive and scheduling library
+	pkgver = 1.8.4.r0.g14b3654
+	pkgrel = 1
+	url = https://github.com/sailfishos/nemo-keepalive
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.1-or-later
+	makedepends = git
+	depends = qt5-declarative
+	depends = libiphb
+	depends = mce-headers-git
+	provides = nemo-keepalive
+	conflicts = nemo-keepalive
+	source = nemo-keepalive::git+https://github.com/sailfishos/nemo-keepalive
+	md5sums = SKIP
+
+pkgname = nemo-keepalive-git

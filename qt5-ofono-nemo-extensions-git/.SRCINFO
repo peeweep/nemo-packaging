@@ -1,0 +1,16 @@
+pkgbase = qt5-ofono-nemo-extensions-git
+	pkgdesc = A Qt library for accessing nemomobile specific ofono extensions
+	pkgver = 1.0.27.r0.gebe45e0
+	pkgrel = 1
+	url = https://github.com/sailfishos/libqofonoext
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.1-only
+	makedepends = git
+	depends = libqofono-qt5>=0.101
+	provides = qt5-ofono-nemo-extensions
+	conflicts = qt5-ofono-nemo-extensions
+	source = qt5-ofono-nemo-extensions-git::git+https://github.com/sailfishos/libqofonoext
+	sha512sums = SKIP
+
+pkgname = qt5-ofono-nemo-extensions-git

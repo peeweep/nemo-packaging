@@ -1,0 +1,21 @@
+pkgbase = qtdocgallery-git
+	pkgdesc = The Glacier image gallery
+	pkgver = mer.5.2.0+git12.r40.ga8fdaf6
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/qtdocgallery#branch=nemo
+	arch = x86_64
+	arch = aarch64
+	license = LGPLv2
+	makedepends = git
+	makedepends = qt5-tools
+	depends = qt5-declarative
+	depends = tracker3
+	depends = tracker3-miners
+	provides = qtdocgallery
+	conflicts = qtdocgallery
+	source = qtdocgallery-git::git+https://github.com/nemomobile-ux/qtdocgallery#branch=nemo
+	source = 0001-workaround-missing-G_BEGIN-END_DECLS-in-tracker.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = qtdocgallery-git

@@ -1,0 +1,18 @@
+pkgbase = glacier-calc-git
+	pkgdesc = Nemo calculator
+	pkgver = 0.3.1.r4.g6d8b530
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/glacier-calc#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	license = LGPL-2.1-only
+	makedepends = git
+	makedepends = cmake
+	depends = qt5-glacier-app-git
+	provides = glacier-calc
+	conflicts = glacier-calc
+	source = glacier-calc-git::git+https://github.com/nemomobile-ux/glacier-calc#branch=master
+	sha256sums = SKIP
+
+pkgname = glacier-calc-git

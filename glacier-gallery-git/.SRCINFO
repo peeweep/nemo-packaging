@@ -1,0 +1,22 @@
+pkgbase = glacier-gallery-git
+	pkgdesc = The Glacier image gallery
+	pkgver = 0.2.4.r0.g40790a4
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/glacier-gallery#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = qt5-tools
+	makedepends = cmake
+	depends = qt5-glacier-app-git
+	depends = nemo-qml-plugin-settings-git
+	depends = nemo-qml-plugin-thumbnailer
+	depends = qt5-resource-git
+	depends = qtdocgallery-git
+	provides = glacier-gallery
+	conflicts = glacier-gallery
+	source = glacier-gallery-git::git+https://github.com/nemomobile-ux/glacier-gallery#branch=master
+	sha256sums = SKIP
+
+pkgname = glacier-gallery-git

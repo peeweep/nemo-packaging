@@ -1,0 +1,17 @@
+pkgbase = nemo-qml-plugin-devicelock-git
+	pkgdesc = Device lock plugin for Nemo Mobile
+	pkgver = 0.3.6.r0.gf10be30
+	pkgrel = 2
+	url = https://github.com/sailfishos/nemo-qml-plugin-devicelock
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	depends = nemo-qml-plugin-dbus
+	depends = nemo-keepalive-git
+	provides = nemo-qml-plugin-devicelock
+	conflicts = nemo-qml-plugin-devicelock
+	source = nemo-qml-plugin-devicelock::git+https://github.com/sailfishos/nemo-qml-plugin-devicelock
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-devicelock-git

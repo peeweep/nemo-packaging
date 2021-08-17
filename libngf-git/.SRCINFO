@@ -1,0 +1,18 @@
+pkgbase = libngf-git
+	pkgdesc = Non-graphic feedback C-based client library
+	pkgver = 0.28.r0.g05ea200
+	pkgrel = 1
+	url = https://github.com/sailfishos/libngf
+	arch = x86_64
+	arch = aarch64
+	license = GPL
+	makedepends = git
+	makedepends = check
+	makedepends = doxygen
+	depends = dbus-glib
+	provides = libngf
+	conflicts = libngf
+	source = libngf::git+https://github.com/sailfishos/libngf
+	md5sums = SKIP
+
+pkgname = libngf-git

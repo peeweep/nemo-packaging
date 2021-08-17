@@ -1,0 +1,21 @@
+pkgbase = libqofono-qt5
+	pkgdesc = A library for accessing the ofono daemon, and a declarative plugin for it. This allows accessing ofono in qtquick and friends.
+	pkgver = 0.103
+	pkgrel = 2
+	url = https://github.com/sailfishos/libqofono
+	arch = aarch64
+	arch = x86_64
+	license = LGPL
+	depends = qt5-declarative
+	depends = qt5-xmlpatterns
+	provides = libqofono
+	source = https://git.merproject.org/mer-core/libqofono/-/archive/0.103/libqofono-0.103.tar.gz
+	source = 0001-add-support-for-reset-contexts.patch
+	source = context-preferred.patch
+	source = mtk_settings_binding.patch
+	md5sums = SKIP
+	md5sums = 18cd69a363041b4b3e72a565ab68b69b
+	md5sums = 17444b274709abf45a7e871c9f8b6407
+	md5sums = 19aac206aab5c3e4f115f7e7ba55e541
+
+pkgname = libqofono-qt5

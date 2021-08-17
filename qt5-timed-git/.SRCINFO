@@ -1,0 +1,24 @@
+pkgbase = qt5-timed-git
+	pkgdesc = Mer time daemon
+	pkgver = 3.6.13.r0.g19cbb69
+	pkgrel = 4
+	url = https://github.com/sailfishos/timed
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.1-or-later
+	makedepends = git
+	depends = sailfish-access-control-git
+	depends = qt5-iodata-git
+	depends = tzdata-timed
+	depends = connman
+	depends = ofono
+	provides = qt5-timed
+	conflicts = qt5-timed
+	source = qt5-timed-git::git+https://github.com/sailfishos/timed
+	source = 0001-Fixes-build.patch
+	source = 0002-Fixes-access.patch
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = qt5-timed-git

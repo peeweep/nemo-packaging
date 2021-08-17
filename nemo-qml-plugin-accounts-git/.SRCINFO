@@ -1,0 +1,16 @@
+pkgbase = nemo-qml-plugin-accounts-git
+	pkgdesc = Accounts plugin for Nemo Mobile
+	pkgver = 0.0.7.r0.g677cf18
+	pkgrel = 1
+	url = https://github.com/sailfishos/nemo-qml-plugin-accounts
+	arch = x86_64
+	arch = aarch64
+	license = BSD
+	makedepends = git
+	depends = qt5-base
+	provides = nemo-qml-plugin-accounts
+	conflicts = nemo-qml-plugin-accounts
+	source = nemo-qml-plugin-accounts-git::git+https://github.com/sailfishos/nemo-qml-plugin-accounts
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-accounts-git

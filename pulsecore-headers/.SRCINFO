@@ -1,0 +1,15 @@
+pkgbase = pulsecore-headers
+	pkgdesc = A featureful, general-purpose sound server
+	pkgver = 15.0
+	pkgrel = 1
+	url = https://www.freedesktop.org/wiki/Software/PulseAudio/
+	arch = any
+	license = GPL
+	makedepends = git
+	makedepends = libpulse
+	source = pulsecore-headers::git+https://gitlab.freedesktop.org/pulseaudio/pulseaudio.git#commit=6329a2498eb038f8a9537888280a62b00a93f68e
+	source = pulsecore.pc
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = pulsecore-headers

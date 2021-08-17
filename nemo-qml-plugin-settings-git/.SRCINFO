@@ -1,0 +1,17 @@
+pkgbase = nemo-qml-plugin-settings-git
+	pkgdesc = Nemomobile QML wrapper for QSettings class
+	pkgver = 0.1.1.r0.gec557c6
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/nemo-qml-plugin-settings#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.0-or-later
+	makedepends = git
+	makedepends = cmake
+	depends = qt5-declarative
+	provides = nemo-qml-plugin-settings
+	conflicts = nemo-qml-plugin-settings
+	source = nemo-qml-plugin-settings-git::git+https://github.com/nemomobile-ux/nemo-qml-plugin-settings#branch=master
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-settings-git

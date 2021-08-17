@@ -1,0 +1,19 @@
+pkgbase = glacier-filemuncher-git
+	pkgdesc = The Glacier file manager
+	pkgver = 0.3.r9.geca1b91
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/glacier-filemuncher#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	makedepends = cmake
+	depends = qt5-glacier-app-git
+	depends = nemo-qml-plugin-settings-git
+	depends = nemo-qml-plugin-folderlistmodel-git
+	provides = glacier-filemuncher
+	conflicts = glacier-filemuncher
+	source = glacier-filemuncher-git::git+https://github.com/nemomobile-ux/glacier-filemuncher#branch=master
+	sha256sums = SKIP
+
+pkgname = glacier-filemuncher-git

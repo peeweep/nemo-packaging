@@ -1,0 +1,23 @@
+pkgbase = glacier-contacts-git
+	pkgdesc = QML based contacts application for nemomobile
+	pkgver = 0.8.r6.g88bb0e3
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/glacier-contacts#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	depends = nemo-qml-plugin-thumbnailer-git
+	depends = nemo-qml-plugin-contacts-git
+	depends = nemo-qml-plugin-folderlistmodel-git
+	depends = glacier-gallery-git
+	depends = glacier-filemuncher-git
+	depends = contactsd-git
+	depends = nemo-qml-plugin-dbus
+	depends = qt5-glacier-app-git
+	provides = glacier-contacts
+	conflicts = glacier-contacts
+	source = glacier-contacts-git::git+https://github.com/nemomobile-ux/glacier-contacts#branch=master
+	sha256sums = SKIP
+
+pkgname = glacier-contacts-git

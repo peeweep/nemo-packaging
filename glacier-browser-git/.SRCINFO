@@ -1,0 +1,20 @@
+pkgbase = glacier-browser-git
+	pkgdesc = Nemo browser
+	pkgver = 0.1.r6.ge98490a
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/glacier-browser#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	license = LGPL-2.1-only
+	makedepends = git
+	makedepends = cmake
+	makedepends = qt5-tools
+	depends = qt5-glacier-app-git
+	depends = qt5-webengine
+	provides = glacier-browser
+	conflicts = glacier-browser
+	source = glacier-browser-git::git+https://github.com/nemomobile-ux/glacier-browser#branch=master
+	sha256sums = SKIP
+
+pkgname = glacier-browser-git

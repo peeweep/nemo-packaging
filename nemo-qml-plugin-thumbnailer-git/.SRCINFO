@@ -1,0 +1,16 @@
+pkgbase = nemo-qml-plugin-thumbnailer-git
+	pkgdesc = Thumbnail provider plugin for Nemo Mobile
+	pkgver = 1.0.4.r0.gdcda58f
+	pkgrel = 1
+	url = https://github.com/sailfishos/nemo-qml-plugin-thumbnailer
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	depends = qt5-declarative
+	provides = nemo-qml-plugin-thumbnailer
+	conflicts = nemo-qml-plugin-thumbnailer
+	source = nemo-qml-plugin-thumbnailer-git::git+https://github.com/sailfishos/nemo-qml-plugin-thumbnailer
+	md5sums = SKIP
+
+pkgname = nemo-qml-plugin-thumbnailer-git

@@ -1,0 +1,24 @@
+pkgbase = buteo-syncfw-git
+	pkgdesc = Synchronization backend
+	pkgver = 0.10.7.r0.gb88bd53
+	pkgrel = 2
+	url = https://github.com/sailfishos/buteo-syncfw
+	arch = x86_64
+	arch = aarch64
+	license = LGPLv2
+	makedepends = git
+	makedepends = qt5-tools
+	makedepends = doxygen
+	depends = libiphb-git
+	depends = nemo-keepalive-git
+	depends = qt5-mce-git
+	depends = signond
+	depends = libaccounts-qt
+	provides = buteo-syncfw
+	conflicts = buteo-syncfw
+	source = buteo-syncfw-git::git+https://github.com/sailfishos/buteo-syncfw
+	source = msyncd.service
+	md5sums = SKIP
+	md5sums = SKIP
+
+pkgname = buteo-syncfw-git

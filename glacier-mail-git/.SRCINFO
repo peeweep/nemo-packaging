@@ -1,0 +1,20 @@
+pkgbase = glacier-mail-git
+	pkgdesc = Nemo mail client
+	pkgver = r255.9e1fd83
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/glacier-mail#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	license = LGPL-2.1-only
+	makedepends = git
+	makedepends = qt5-tools
+	depends = qt5-glacier-app-git
+	depends = qt5-webengine
+	depends = nemo-qml-plugin-email-git
+	provides = glacier-mail
+	conflicts = glacier-mail
+	source = glacier-mail-git::git+https://github.com/nemomobile-ux/glacier-mail#branch=master
+	sha256sums = SKIP
+
+pkgname = glacier-mail-git

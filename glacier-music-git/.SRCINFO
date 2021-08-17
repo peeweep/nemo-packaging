@@ -1,0 +1,22 @@
+pkgbase = glacier-music-git
+	pkgdesc = The glacier music player
+	pkgver = 0.2.3.r0.gfb09d18
+	pkgrel = 1
+	url = https://github.com/nemomobile-ux/glacier-music#branch=master
+	arch = x86_64
+	arch = aarch64
+	license = LGPL-2.0-or-later
+	makedepends = git
+	makedepends = qt5-multimedia
+	makedepends = cmake
+	depends = taglib
+	depends = qt5-glacier-app-git
+	depends = nemo-qml-plugin-settings-git
+	depends = nemo-qml-plugin-thumbnailer
+	depends = qt5-mpris-git
+	provides = glacier-music
+	conflicts = glacier-music
+	source = glacier-music-git::git+https://github.com/nemomobile-ux/glacier-music#branch=master
+	sha256sums = SKIP
+
+pkgname = glacier-music-git

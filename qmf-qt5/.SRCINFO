@@ -1,0 +1,27 @@
+pkgbase = qmf-qt5-git
+	pkgdesc = Qt Messaging Framework (QMF) Qt5
+	pkgver = 4.0.4.131
+	pkgrel = 3
+	url = https://github.com/sailfishos/messagingframework
+	arch = x86_64
+	arch = aarch64
+	license = BSD-3-Clause
+	makedepends = git
+	depends = nemo-keepalive-git
+	depends = buteo-syncfw
+	depends = libaccounts-qt
+	depends = signond
+	provides = qmf-qt5
+	conflicts = qmf-qt5
+	source = qmf-qt5-git::git+https://github.com/sailfishos/messagingframework
+	source = 0090-fix_missing_librares.patch
+	source = 0091-use_std_list.patch
+	source = messageserver5.service
+	source = messageserver5-accounts-check.service
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = SKIP
+
+pkgname = qmf-qt5-git
